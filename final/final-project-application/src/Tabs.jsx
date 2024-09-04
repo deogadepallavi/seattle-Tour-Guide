@@ -3,6 +3,7 @@ import { fetchEvents, fetchSightSeeing, fetchArts, fetchCulture, fetchFamily, fe
 import RenderData from "./RenderData";
 
 
+
 const Tabs = ({ tabsConfig, defaultIndex }) => {
   const [selectedIndexLog, setSelectedIndexLog] = useState(-1); // Set an initial value that doesn't correspond to any tab index
   const [selectedIndex, setSelectedIndex] = useState(defaultIndex ?? 0);
@@ -173,6 +174,8 @@ const Tabs = ({ tabsConfig, defaultIndex }) => {
     .catch(error => console.error(error));
   }
 
+  
+
   return (
     <>
       {selectedItem === null && (
@@ -207,6 +210,7 @@ const Tabs = ({ tabsConfig, defaultIndex }) => {
                       blogClicked(index)
                     else if (tab.label == "Contact Us")
                       phoneClicked(index)
+
                   }}
                 >
               {tab.listItem1}
