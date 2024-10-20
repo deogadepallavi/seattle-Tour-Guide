@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/seattle-Tour-Guide/static/css/main.931e8258.css",
+    "main.js": "/seattle-Tour-Guide/static/js/main.eef5887b.js",
+    "static/js/787.2fe99908.chunk.js": "/seattle-Tour-Guide/static/js/787.2fe99908.chunk.js",
+    "static/media/seattleImage2.jpg": "/seattle-Tour-Guide/static/media/seattleImage2.5c37755ba025744c4274.jpg",
+    "static/media/seattleBackgroundImage.jpg": "/seattle-Tour-Guide/static/media/seattleBackgroundImage.030c8f275ebb688595df.jpg",
+    "index.html": "/seattle-Tour-Guide/index.html",
+    "main.931e8258.css.map": "/seattle-Tour-Guide/static/css/main.931e8258.css.map",
+    "main.eef5887b.js.map": "/seattle-Tour-Guide/static/js/main.eef5887b.js.map",
+    "787.2fe99908.chunk.js.map": "/seattle-Tour-Guide/static/js/787.2fe99908.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.931e8258.css",
+    "static/js/main.eef5887b.js"
+  ]
+}
